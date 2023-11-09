@@ -45,7 +45,7 @@ const nombreArchivo = args[0];
 // Ruta de origen (búsqueda recursiva)
 const rutaOrigen = buscarArchivoRecursivo(
   nombreArchivo,
-  path.join('vba-files', 'Module')
+  path.join('vba-files')
 );
 
 if (rutaOrigen) {
