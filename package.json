@@ -8,12 +8,11 @@
   "scripts": {
     "import": "node scripts/import.js",
     "watch": "node scripts/watcher.js",
-    "edit": "mkdir vba-build > nul 2> nul || cd vba-build && xlwings vba edit --file ../index.xlsm"
+    "edit": "mkdir vba-build > nul 2> nul || cd vba-build && xlwings vba edit --file ../index.xlsm",
+    "ribbon": "cd xvba_modules/custom-ui-editor && CustomUIEditor"
   },
   "dependencies": {
-    "chokidar": "^3.5.3",
-    "excel-types": "1.0.0",
-    "Xlog": "1.0.0"
+    "chokidar": "^3.5.3"
   },
   "devDependencies": {
     "@localsmart/xvba-cli": "^1.0.2"

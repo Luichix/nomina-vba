@@ -9,6 +9,9 @@
   "ribbon_file": "customUI14",
   "ribbon_folder": "ribbons",
   "logs": "on",
-  "xvba_packages": {},
+  "xvba_packages": {
+    "excel-types": "1.0.0",
+    "Xlog": "1.0.0"
+  },
   "xvba_dev_packages": {}
 }
