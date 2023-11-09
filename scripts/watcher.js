@@ -2,6 +2,8 @@ const chokidar = require('chokidar');
 const { spawn } = require('child_process');
 const path = require('path');
 
+let primerArranque = true;
+
 // Ruta del script de importación
 const importScriptPath = path.join(__dirname, 'import.js');
 
@@ -13,9 +15,10 @@ const watcher = chokidar.watch(carpetaAObservar, {
   ignored: /(^|[/\\])\../, // Ignorar archivos ocultos
   persistent: true,
 });
-
-console.log(`Watching changes in VBA Folder: ${carpetaAObservar} 🧐`);
-
+if (primerArranque) {
+  console.log(`Importing files to VBA Build!!! 🚀`);
+  console.log(`Watching changes in VBA Folder: ${carpetaAObservar} 🧐`);
+}
 // Evento de cambio detectado
 watcher
   .on('add', (ruta) => ejecutarImportScript(ruta))
@@ -26,12 +29,27 @@ watcher
 function ejecutarImportScript(ruta) {
   const nombreArchivo = path.basename(ruta);
   const comando = `npm run import ${nombreArchivo}`;
-
-  console.log(`Change detected in ${nombreArchivo.split('.')[0]} 😝`);
-  console.log(`Importing changes in source 🔧`);
-
+  if (!primerArranque) {
+    console.log(`Change detected in ${nombreArchivo.split('.')[0]} 😝`);
+    console.log(`Importing changes to vba build 🔧`);
+  }
   const proceso = spawn('node', [importScriptPath, nombreArchivo]);
 
-  proceso.stdout.on('data', (data) => console.log(data.toString()));
-  proceso.stderr.on('data', (data) => console.error(data.toString()));
+  if (!primerArranque) {
+    proceso.stdout.on('data', (data) => {
+      if (data) {
+        console.log(data.toString());
+      }
+    });
+  }
+  proceso.stderr.on('data', (data) => {
+    if (data) {
+      console.error(data.toString());
+    }
+  });
 }
+
+// Marcar el primer arranque como completado después de un breve retraso
+setTimeout(() => {
+  primerArranque = false;
+}, 3000);

@@ -30,9 +30,11 @@ function copiarYpegar(origen, destino) {
     const nombreArchivo = path.basename(origen);
     const destinoCompleto = path.join(destino, nombreArchivo);
     fs.writeFileSync(destinoCompleto, contenido);
-    console.log(`Changes made successfully!!! 🥳`);
+    return { success: true, message: 'Changes made successfully! 🥳' };
   } catch (error) {
     console.error('Error to copy file ☠️:', error.message);
+    // Devuelve un objeto con información de error
+    return { success: false, message: `Error: ${error.message}` };
   }
 }
 
@@ -48,10 +50,15 @@ const rutaOrigen = buscarArchivoRecursivo(
 
 if (rutaOrigen) {
   // Ruta de destino
-  const destino = 'src';
+  const destino = 'vba-build';
 
   // Llamar a la función para copiar y pegar
-  copiarYpegar(rutaOrigen, destino);
+  const resultadoCopia = copiarYpegar(rutaOrigen, destino);
+  if (resultadoCopia.success) {
+    process.stdout.write(JSON.stringify(resultadoCopia.message));
+  } else {
+    process.stderr.write(JSON.stringify(resultadoCopia.message));
+  }
 } else {
   console.error(`File ${nombreArchivo} no found. 🤡`);
 }
