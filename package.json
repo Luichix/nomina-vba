@@ -1,15 +1,21 @@
 {
-    "name": "xvba-app",
-    "version": "1.0.0",
-    "description": "A XVBA App",
-    "main": "index.js",
-    "author": "LocalSmart",
-    "license": "ISC",
-    "dependencies": {
-        "excel-types": "1.0.0",
-        "Xlog": "1.0.0"
-    },
-    "devDependencies": {
-        "@localsmart/xvba-cli": "^1.0.2"
-    }
+  "name": "xvba-app",
+  "version": "1.0.0",
+  "description": "A XVBA App",
+  "main": "index.js",
+  "author": "LocalSmart",
+  "license": "ISC",
+  "scripts": {
+    "import": "node scripts/import.js",
+    "watch": "node scripts/watcher.js",
+    "edit": "xlwings vba edit --file index.xlsm"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "excel-types": "1.0.0",
+    "Xlog": "1.0.0"
+  },
+  "devDependencies": {
+    "@localsmart/xvba-cli": "^1.0.2"
+  }
 }
