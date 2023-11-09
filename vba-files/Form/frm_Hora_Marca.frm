@@ -348,7 +348,7 @@ xExit16 = Me.txt_xSalida16.Value
  Hoja2.Protect (Seguridad)
  
  
-         MsgBox "Registro procesado con éxito!!!", vbInformation, Titulo
+         MsgBox "Registro procesado con ï¿½xito!!!", vbInformation, Titulo
              
 End Sub
 Private Sub LimpiarHora()
@@ -1160,8 +1160,8 @@ Me.txt_Id.Text = Hoja58.Cells(6, 11)
 Me.txt_Nombre.Text = Hoja58.Cells(6, 12)
 
 '''''''''''''''''''''''''''''''''''''
-Me.label_año1.Caption = "AÑO"
-Me.label_año2.Caption = Hoja58.Cells(2, 11)
+Me.label_aï¿½o1.Caption = "Aï¿½O"
+Me.label_aï¿½o2.Caption = Hoja58.Cells(2, 11)
 
 
 '''''''''''''''''''''''''''''''''''''
@@ -2004,7 +2004,7 @@ Me.lbx_Hora = Empty
 Me.lbx_Hora.RowSource = Empty
 
 For Fila = 2 To uf
-    STRG = Hoja2.Cells(Fila, 2).Value 'Variable para descripción
+    STRG = Hoja2.Cells(Fila, 2).Value 'Variable para descripciï¿½n
 
     If UCase(STRG) Like Estado Then
         Me.lbx_Hora.AddItem
@@ -2897,8 +2897,8 @@ Me.txt_Id.Text = Hoja58.Cells(6, 11)
 Me.txt_Nombre.Text = Hoja58.Cells(6, 12)
 
 '''''''''''''''''''''''''''''''''''''
-Me.label_año1.Caption = "AÑO"
-Me.label_año2.Caption = Hoja58.Cells(2, 11)
+Me.label_aï¿½o1.Caption = "Aï¿½O"
+Me.label_aï¿½o2.Caption = Hoja58.Cells(2, 11)
 
 
 '''''''''''''''''''''''''''''''''''''
@@ -4677,196 +4677,196 @@ If txt_xSalida16.Value > 23 And txt_xSalida16.Value < 30 Or txt_xSalida16.Value 
 End If
 End Sub
 Private Sub txt_xEntrada1_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada1, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada1, KeyAscii)
 End Sub
 Private Sub txt_xSalida1_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida1, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida1, KeyAscii)
 End Sub
 Private Sub txt_xEntrada2_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada2, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada2, KeyAscii)
 End Sub
 Private Sub txt_xSalida2_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida2, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida2, KeyAscii)
 End Sub
 Private Sub txt_xEntrada3_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada3, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada3, KeyAscii)
 End Sub
 Private Sub txt_xSalida3_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida3, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida3, KeyAscii)
 End Sub
 Private Sub txt_xEntrada4_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada4, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada4, KeyAscii)
 End Sub
 Private Sub txt_xSalida4_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida4, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida4, KeyAscii)
 End Sub
 Private Sub txt_xEntrada5_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada5, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada5, KeyAscii)
 End Sub
 Private Sub txt_xSalida5_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida5, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida5, KeyAscii)
 End Sub
 Private Sub txt_xEntrada6_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada6, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada6, KeyAscii)
 End Sub
 Private Sub txt_xSalida6_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida6, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida6, KeyAscii)
 End Sub
 Private Sub txt_xEntrada7_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada7, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada7, KeyAscii)
 End Sub
 Private Sub txt_xSalida7_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida7, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida7, KeyAscii)
 End Sub
 Private Sub txt_xEntrada8_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada8, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada8, KeyAscii)
 End Sub
 Private Sub txt_xSalida8_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida8, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida8, KeyAscii)
 End Sub
 Private Sub txt_xEntrada9_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada9, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada9, KeyAscii)
 End Sub
 Private Sub txt_xSalida9_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida9, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida9, KeyAscii)
 End Sub
 Private Sub txt_xEntrada10_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada10, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada10, KeyAscii)
 End Sub
 Private Sub txt_xSalida10_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida10, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida10, KeyAscii)
 End Sub
 Private Sub txt_xEntrada11_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada11, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada11, KeyAscii)
 End Sub
 Private Sub txt_xSalida11_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida11, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida11, KeyAscii)
 End Sub
 Private Sub txt_xEntrada12_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada12, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada12, KeyAscii)
 End Sub
 Private Sub txt_xSalida12_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida12, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida12, KeyAscii)
 End Sub
 Private Sub txt_xEntrada13_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada13, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada13, KeyAscii)
 End Sub
 Private Sub txt_xSalida13_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida13, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida13, KeyAscii)
 End Sub
 Private Sub txt_xEntrada14_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada14, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada14, KeyAscii)
 End Sub
 Private Sub txt_xSalida14_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida14, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida14, KeyAscii)
 End Sub
 Private Sub txt_xEntrada15_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada15, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada15, KeyAscii)
 End Sub
 Private Sub txt_xSalida15_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida15, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida15, KeyAscii)
 End Sub
 Private Sub txt_xEntrada16_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xEntrada16, KeyAscii)
+KeyAscii = DoublePoint(txt_xEntrada16, KeyAscii)
 End Sub
 Private Sub txt_xSalida16_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
-KeyAscii = DoblePunto(txt_xSalida16, KeyAscii)
+KeyAscii = DoublePoint(txt_xSalida16, KeyAscii)
 End Sub
 Private Sub txt_xEntrada1_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada1, KeyCode)
+KeyCode = ErasedText(txt_xEntrada1, KeyCode)
 End Sub
 Private Sub txt_xSalida1_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida1, KeyCode)
+KeyCode = ErasedText(txt_xSalida1, KeyCode)
 End Sub
 Private Sub txt_xEntrada2_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada2, KeyCode)
+KeyCode = ErasedText(txt_xEntrada2, KeyCode)
 End Sub
 Private Sub txt_xSalida2_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida2, KeyCode)
+KeyCode = ErasedText(txt_xSalida2, KeyCode)
 End Sub
 Private Sub txt_xEntrada3_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada3, KeyCode)
+KeyCode = ErasedText(txt_xEntrada3, KeyCode)
 End Sub
 Private Sub txt_xSalida3_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida3, KeyCode)
+KeyCode = ErasedText(txt_xSalida3, KeyCode)
 End Sub
 Private Sub txt_xEntrada4_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada4, KeyCode)
+KeyCode = ErasedText(txt_xEntrada4, KeyCode)
 End Sub
 Private Sub txt_xSalida4_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida4, KeyCode)
+KeyCode = ErasedText(txt_xSalida4, KeyCode)
 End Sub
 Private Sub txt_xEntrada5_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada5, KeyCode)
+KeyCode = ErasedText(txt_xEntrada5, KeyCode)
 End Sub
 Private Sub txt_xSalida5_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida5, KeyCode)
+KeyCode = ErasedText(txt_xSalida5, KeyCode)
 End Sub
 Private Sub txt_xEntrada6_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada6, KeyCode)
+KeyCode = ErasedText(txt_xEntrada6, KeyCode)
 End Sub
 Private Sub txt_xSalida6_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida6, KeyCode)
+KeyCode = ErasedText(txt_xSalida6, KeyCode)
 End Sub
 Private Sub txt_xEntrada7_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada7, KeyCode)
+KeyCode = ErasedText(txt_xEntrada7, KeyCode)
 End Sub
 Private Sub txt_xSalida7_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida7, KeyCode)
+KeyCode = ErasedText(txt_xSalida7, KeyCode)
 End Sub
 Private Sub txt_xEntrada8_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada8, KeyCode)
+KeyCode = ErasedText(txt_xEntrada8, KeyCode)
 End Sub
 Private Sub txt_xSalida8_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida8, KeyCode)
+KeyCode = ErasedText(txt_xSalida8, KeyCode)
 End Sub
 Private Sub txt_xEntrada9_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada9, KeyCode)
+KeyCode = ErasedText(txt_xEntrada9, KeyCode)
 End Sub
 Private Sub txt_xSalida9_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida9, KeyCode)
+KeyCode = ErasedText(txt_xSalida9, KeyCode)
 End Sub
 Private Sub txt_xEntrada10_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada10, KeyCode)
+KeyCode = ErasedText(txt_xEntrada10, KeyCode)
 End Sub
 Private Sub txt_xSalida10_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida10, KeyCode)
+KeyCode = ErasedText(txt_xSalida10, KeyCode)
 End Sub
 Private Sub txt_xEntrada11_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada11, KeyCode)
+KeyCode = ErasedText(txt_xEntrada11, KeyCode)
 End Sub
 Private Sub txt_xSalida11_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida11, KeyCode)
+KeyCode = ErasedText(txt_xSalida11, KeyCode)
 End Sub
 Private Sub txt_xEntrada12_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada12, KeyCode)
+KeyCode = ErasedText(txt_xEntrada12, KeyCode)
 End Sub
 Private Sub txt_xSalida12_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida12, KeyCode)
+KeyCode = ErasedText(txt_xSalida12, KeyCode)
 End Sub
 Private Sub txt_xEntrada13_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada13, KeyCode)
+KeyCode = ErasedText(txt_xEntrada13, KeyCode)
 End Sub
 Private Sub txt_xSalida13_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida13, KeyCode)
+KeyCode = ErasedText(txt_xSalida13, KeyCode)
 End Sub
 Private Sub txt_xEntrada14_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada14, KeyCode)
+KeyCode = ErasedText(txt_xEntrada14, KeyCode)
 End Sub
 Private Sub txt_xSalida14_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida14, KeyCode)
+KeyCode = ErasedText(txt_xSalida14, KeyCode)
 End Sub
 Private Sub txt_xEntrada15_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada15, KeyCode)
+KeyCode = ErasedText(txt_xEntrada15, KeyCode)
 End Sub
 Private Sub txt_xSalida15_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida15, KeyCode)
+KeyCode = ErasedText(txt_xSalida15, KeyCode)
 End Sub
 Private Sub txt_xEntrada16_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xEntrada16, KeyCode)
+KeyCode = ErasedText(txt_xEntrada16, KeyCode)
 End Sub
 Private Sub txt_xSalida16_KeyUp(ByVal KeyCode As MSForms.ReturnInteger, ByVal Shift As Integer)
-KeyCode = TextoBorrado(txt_xSalida16, KeyCode)
+KeyCode = ErasedText(txt_xSalida16, KeyCode)
 End Sub
 
 Private Sub Limpiar_Filtro()
@@ -4927,7 +4927,7 @@ Dim Hora(37) As Variant
        
    frm_Hora_Marca.SpinButton2.Value = VBA.Year(VBA.Date)
     
-   frm_Hora_Marca.label_año2.Caption = VBA.Year(VBA.Date)
+   frm_Hora_Marca.label_aï¿½o2.Caption = VBA.Year(VBA.Date)
         
   frm_Hora_Marca.lblHoy.Caption = VBA.Date
 
@@ -4937,8 +4937,8 @@ Me.txt_Id.Text = Hoja58.Cells(6, 11)
 Me.txt_Nombre.Text = Hoja58.Cells(6, 12)
 
 '''''''''''''''''''''''''''''''''''''
-Me.label_año1.Caption = "AÑO"
-Me.label_año2.Caption = Hoja58.Cells(2, 11)
+Me.label_aï¿½o1.Caption = "Aï¿½O"
+Me.label_aï¿½o2.Caption = Hoja58.Cells(2, 11)
 
 '''''''''''''''''''''''''''''''''''''
 Me.Label1.Caption = Hoja58.Cells(1, 2)
@@ -5779,7 +5779,7 @@ Me.lbx_Hora = Empty
 Me.lbx_Hora.RowSource = Empty
 
 For Fila = 2 To uf
-    STRG = Hoja2.Cells(Fila, 2).Value 'Variable para descripción
+    STRG = Hoja2.Cells(Fila, 2).Value 'Variable para descripciï¿½n
 
     If UCase(STRG) Like Estado Then
         Me.lbx_Hora.AddItem

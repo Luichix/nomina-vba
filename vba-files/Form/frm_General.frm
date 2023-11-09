@@ -49,7 +49,7 @@ Application.ScreenUpdating = False
     
  Application.Cursor = xlDefault
  
-MsgBox "Comprobante de pago elaborado con éxito!!!", vbInformation, Titulo
+MsgBox "Comprobante de pago elaborado con ï¿½xito!!!", vbInformation, Titulo
     
 
     Hoja3.Protect (Seguridad)
@@ -145,7 +145,7 @@ C14_Base = "(+)BASE SALARIAL:"
 C15_Ausencia = "(-)AUSENCIA/TARDANZA:"
 C16_Ordinario = "(=)INGRESO ORDINARIO:"
 C17_IngresoBruto = "INGRESOS BRUTOS"
-C18_Deduce = "DEDUCCIÓNES"
+C18_Deduce = "DEDUCCIï¿½NES"
 C19_Ingreso = "INGRESO"
 C20_Egreso = "EGRESO"
 C21_Horas = "HORAS"
@@ -157,7 +157,7 @@ C26_Extra = "EXTRAS DIURNAS:"
 C27_Vesper1 = "EXTRAS 5PM - 6PM:"
 C28_Vesper2 = "EXTRAS 6PM - 8PM:"
 C29_Nocturne = "EXTRAS 8+:"
-C30_Comision = "COMISIÓNES:"
+C30_Comision = "COMISIï¿½NES:"
 C31_PrestamoP = "PRESTAMOS PERSONALES:"
 C32_PrestamoB = "PRESTAMOS BANCARIOS:"
 C33_Vales = "VALES:"
@@ -345,56 +345,56 @@ For xFila = 5 To xFinal
     Hoja5.Cells(Fila + 24, 1) = C42_Conforme
     
    
-'DISEÑO Y FORMATO DE LA ESTRUCTURA "COLOR Y CENTRADO
+'DISEï¿½O Y FORMATO DE LA ESTRUCTURA "COLOR Y CENTRADO
 
 Hoja5.Range(Cells(Fila, 1), Cells(Fila, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
     Formato_A
 
 Hoja5.Range(Cells(Fila + 1, 1), Cells(Fila + 1, 4)).Select
-    Diseño_A
+    Diseï¿½o_A
     Formato_A
 
 Hoja5.Range(Cells(Fila + 1, 5), Cells(Fila + 1, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
     Formato_A
     
 Hoja5.Range(Cells(Fila + 2, 5), Cells(Fila + 3, 5)).Select
-    Diseño_D
+    Diseï¿½o_D
 
 Hoja5.Range(Cells(Fila + 2, 6), Cells(Fila + 3, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
     
 Hoja5.Range(Cells(Fila + 7, 1), Cells(Fila + 7, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
     Formato_A
 
 Hoja5.Range(Cells(Fila + 10, 1), Cells(Fila + 10, 8)).Select
-    Diseño_B
+    Diseï¿½o_B
     Formato_A
 
 Hoja5.Range(Cells(Fila + 20, 1), Cells(Fila + 21, 8)).Select
     Formato_A
 
 Hoja5.Range(Cells(Fila + 20, 1), Cells(Fila + 20, 2)).Select
-    Diseño_C
+    Diseï¿½o_C
     
 Hoja5.Range(Cells(Fila + 20, 3), Cells(Fila + 20, 4)).Select
-    Diseño_C
+    Diseï¿½o_C
 
 Hoja5.Range(Cells(Fila + 20, 5), Cells(Fila + 20, 6)).Select
-    Diseño_C
+    Diseï¿½o_C
     
 Hoja5.Range(Cells(Fila + 20, 7), Cells(Fila + 20, 8)).Select
-    Diseño_C
+    Diseï¿½o_C
 
 Hoja5.Range(Cells(Fila + 21, 1), Cells(Fila + 21, 4)).Select
-    Diseño_C
+    Diseï¿½o_C
  
 Hoja5.Range(Cells(Fila + 24, 1), Cells(Fila + 24, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
 
-'DISEÑO Y FORMATO DE ESTRUCTURA "BORDES"
+'DISEï¿½O Y FORMATO DE ESTRUCTURA "BORDES"
 
 Hoja5.Range(Cells(Fila, 1), Cells(Fila, 8)).Select
     Borde_A
@@ -644,7 +644,7 @@ Range("A4").Select
 'Hoja5.Cells(Fila + 29, 1) = Empresa
 '
 'Hoja5.Range(Cells(Fila + 29, 1), Cells(Fila + 29, 8)).Select
-'Diseño_A
+'Diseï¿½o_A
 '
 'Hoja5.Range(Cells(Fila, 1), Cells(Fila + 24, 8)).Select
 'Hoja5.Range(Cells(Fila, 1), Cells(Fila + 24, 8)).Copy
@@ -747,7 +747,7 @@ C14_Base = "(+)BASE SALARIAL:"
 C15_Ausencia = "(-)AUSENCIA/TARDANZA:"
 C16_Ordinario = "(=)INGRESO ORDINARIO:"
 C17_IngresoBruto = "INGRESOS BRUTOS"
-C18_Deduce = "DEDUCCIÓNES"
+C18_Deduce = "DEDUCCIï¿½NES"
 C19_Ingreso = "INGRESO"
 C20_Egreso = "EGRESO"
 C21_Horas = "HORAS"
@@ -759,7 +759,7 @@ C26_Extra = "EXTRAS DIURNAS:"
 C27_Vesper1 = "EXTRAS 5PM - 6PM:"
 C28_Vesper2 = "EXTRAS 6PM - 8PM:"
 C29_Nocturne = "EXTRAS 8+:"
-C30_Comision = "COMISIÓNES:"
+C30_Comision = "COMISIï¿½NES:"
 C31_PrestamoP = "PRESTAMOS PERSONALES:"
 C32_PrestamoB = "PRESTAMOS BANCARIOS:"
 C33_Vales = "VALES:"
@@ -947,56 +947,56 @@ For xFila = 5 To xFinal
     Hoja5.Cells(Fila + 24, 1) = C42_Conforme
     
    
-'DISEÑO Y FORMATO DE LA ESTRUCTURA "COLOR Y CENTRADO
+'DISEï¿½O Y FORMATO DE LA ESTRUCTURA "COLOR Y CENTRADO
 
 Hoja5.Range(Cells(Fila, 1), Cells(Fila, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
     Formato_A
 
 Hoja5.Range(Cells(Fila + 1, 1), Cells(Fila + 1, 4)).Select
-    Diseño_A
+    Diseï¿½o_A
     Formato_A
 
 Hoja5.Range(Cells(Fila + 1, 5), Cells(Fila + 1, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
     Formato_A
     
 Hoja5.Range(Cells(Fila + 2, 5), Cells(Fila + 3, 5)).Select
-    Diseño_D
+    Diseï¿½o_D
 
 Hoja5.Range(Cells(Fila + 2, 6), Cells(Fila + 3, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
     
 Hoja5.Range(Cells(Fila + 7, 1), Cells(Fila + 7, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
     Formato_A
 
 Hoja5.Range(Cells(Fila + 10, 1), Cells(Fila + 10, 8)).Select
-    Diseño_B
+    Diseï¿½o_B
     Formato_A
 
 Hoja5.Range(Cells(Fila + 20, 1), Cells(Fila + 21, 8)).Select
     Formato_A
 
 Hoja5.Range(Cells(Fila + 20, 1), Cells(Fila + 20, 2)).Select
-    Diseño_C
+    Diseï¿½o_C
     
 Hoja5.Range(Cells(Fila + 20, 3), Cells(Fila + 20, 4)).Select
-    Diseño_C
+    Diseï¿½o_C
 
 Hoja5.Range(Cells(Fila + 20, 5), Cells(Fila + 20, 6)).Select
-    Diseño_C
+    Diseï¿½o_C
     
 Hoja5.Range(Cells(Fila + 20, 7), Cells(Fila + 20, 8)).Select
-    Diseño_C
+    Diseï¿½o_C
 
 Hoja5.Range(Cells(Fila + 21, 1), Cells(Fila + 21, 4)).Select
-    Diseño_C
+    Diseï¿½o_C
  
 Hoja5.Range(Cells(Fila + 24, 1), Cells(Fila + 24, 8)).Select
-    Diseño_A
+    Diseï¿½o_A
 
-'DISEÑO Y FORMATO DE ESTRUCTURA "BORDES"
+'DISEï¿½O Y FORMATO DE ESTRUCTURA "BORDES"
 
 Hoja5.Range(Cells(Fila, 1), Cells(Fila, 8)).Select
     Borde_A
@@ -1269,8 +1269,8 @@ If mi_ventana.Show = True Then
     mi_carpeta = mi_ventana.SelectedItems(1)
     mi_referencia = mi_ventana.SelectedItems(1)
 Else
-    MsgBox "No se indicó la carpeta donde guardar el PDF…" _
-    & vbCrLf & vbCrLf & "Operación cancelada.", _
+    MsgBox "No se indicï¿½ la carpeta donde guardar el PDFï¿½" _
+    & vbCrLf & vbCrLf & "Operaciï¿½n cancelada.", _
     vbCritical, "Carpeta de almacenamiento pdf"
     Exit Sub
 End If
@@ -1282,7 +1282,7 @@ mi_carpeta = mi_carpeta + "\" + Nombre_PDF + ".pdf"
 
 If Len(Dir(mi_carpeta)) > 0 Then
     mi_archivo = MsgBox(mi_carpeta & " existente." _
-    & vbCrLf & vbCrLf & "¿Desea reemplazarlo?", _
+    & vbCrLf & vbCrLf & "ï¿½Desea reemplazarlo?", _
     vbYesNo + vbQuestion, "Archivo existente")
     
     On Error Resume Next
@@ -1290,14 +1290,14 @@ If Len(Dir(mi_carpeta)) > 0 Then
     If mi_archivo = vbYes Then
         Kill mi_carpeta
     Else
-        MsgBox "Reemplazar el archivo PDF existente para continuar…" _
-        & vbCrLf & vbCrLf & "Operación cancelada.", _
+        MsgBox "Reemplazar el archivo PDF existente para continuarï¿½" _
+        & vbCrLf & vbCrLf & "Operaciï¿½n cancelada.", _
         vbCritical, "Confirmar guardar como"
         Exit Sub
     End If
     
     If Err.Number <> 0 Then
-        MsgBox "El archivo pdf se encuentra abierto o protegido como sólo lectura." _
+        MsgBox "El archivo pdf se encuentra abierto o protegido como sï¿½lo lectura." _
         & vbCrLf & vbCrLf, vbCritical, _
         "Error al guardar el archivo"
         Exit Sub
@@ -1331,8 +1331,8 @@ If mi_ventana.Show = True Then
     mi_carpeta = mi_ventana.SelectedItems(1)
     mi_referencia = mi_ventana.SelectedItems(1)
 Else
-    MsgBox "No se indicó la carpeta donde guardar el PDF…" _
-    & vbCrLf & vbCrLf & "Operación cancelada.", _
+    MsgBox "No se indicï¿½ la carpeta donde guardar el PDFï¿½" _
+    & vbCrLf & vbCrLf & "Operaciï¿½n cancelada.", _
     vbCritical, "Carpeta de almacenamiento pdf"
     Exit Sub
 End If
@@ -1344,7 +1344,7 @@ mi_carpeta = mi_carpeta + "\" + Nombre_PDF + ".pdf"
 
 If Len(Dir(mi_carpeta)) > 0 Then
     mi_archivo = MsgBox(mi_carpeta & " existente." _
-    & vbCrLf & vbCrLf & "¿Desea reemplazarlo?", _
+    & vbCrLf & vbCrLf & "ï¿½Desea reemplazarlo?", _
     vbYesNo + vbQuestion, "Archivo existente")
     
     On Error Resume Next
@@ -1352,14 +1352,14 @@ If Len(Dir(mi_carpeta)) > 0 Then
     If mi_archivo = vbYes Then
         Kill mi_carpeta
     Else
-        MsgBox "Reemplazar el archivo PDF existente para continuar…" _
-        & vbCrLf & vbCrLf & "Operación cancelada.", _
+        MsgBox "Reemplazar el archivo PDF existente para continuarï¿½" _
+        & vbCrLf & vbCrLf & "Operaciï¿½n cancelada.", _
         vbCritical, "Confirmar guardar como"
         Exit Sub
     End If
     
     If Err.Number <> 0 Then
-        MsgBox "El archivo pdf se encuentra abierto o protegido como sólo lectura." _
+        MsgBox "El archivo pdf se encuentra abierto o protegido como sï¿½lo lectura." _
         & vbCrLf & vbCrLf, vbCritical, _
         "Error al guardar el archivo"
         Exit Sub
@@ -1390,27 +1390,27 @@ End With
 End Sub
 
     
-Public Sub Diseño_A()
+Public Sub Diseï¿½o_A()
     With Selection
     .HorizontalAlignment = xlCenter
     .VerticalAlignment = xlCenter
     .MergeCells = True
     End With
 End Sub
-Public Sub Diseño_B()
+Public Sub Diseï¿½o_B()
     With Selection
     .HorizontalAlignment = xlCenter
     .VerticalAlignment = xlCenter
     End With
 End Sub
-Public Sub Diseño_C()
+Public Sub Diseï¿½o_C()
     With Selection
     .HorizontalAlignment = xlRight
     .VerticalAlignment = xlCenter
     .MergeCells = True
     End With
 End Sub
-Public Sub Diseño_D()
+Public Sub Diseï¿½o_D()
     With Selection
     .VerticalAlignment = xlCenter
     .MergeCells = True

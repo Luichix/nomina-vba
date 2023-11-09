@@ -150,7 +150,7 @@ Private Sub txt_Aid_Change()
         Me.ck_Otros.Value = False
     End If
 
-    Final = GetUltimoR(Hoja1)
+    Final = GetLastRecord(Hoja1)
 
     For Fila = 2 To Final
         If Me.txt_Aid.Text = Hoja1.Cells(Fila, 1) Then
